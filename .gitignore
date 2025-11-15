@@ -1,0 +1,19 @@
+# Configurações sensíveis
+config/database.php
+
+# Arquivos de upload
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
