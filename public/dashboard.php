@@ -1,0 +1,9 @@
+<?php
+/**
+ * Página Dashboard
+ */
+
+require_once __DIR__ . '/controllers/DashboardController.php';
+
+$controller = new DashboardController();
+$controller->index();
